@@ -18,5 +18,11 @@ pipeline {
       }
     }
 
+    stage('deploy') {
+      steps {
+        sleep 10
+      }
+    }
+
   }
 }
