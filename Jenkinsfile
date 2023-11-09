@@ -24,5 +24,11 @@ pipeline {
       }
     }
 
+    stage('Post') {
+      steps {
+        writeFile(file: 'c:\\Users\\user\\Desktop\\test.txt', text: 'It Works')
+      }
+    }
+
   }
 }
