@@ -26,7 +26,7 @@ pipeline {
 
     stage('Post') {
       steps {
-        writeFile(file: 'c:\\Users\\user\\Desktop\\test.txt', text: 'It Works')
+        writeFile(file: 'c:\\Users\\user\\Desktop\\BlueOcean.txt', text: 'Completed ')
       }
     }
 
